@@ -1,0 +1,91 @@
+{
+    "vecino":{
+        "nombre":{
+            "type":"String",
+            "required":true
+        },
+        "apellido":{
+            "type":"String",
+            "required":true
+        },
+        "fechaNacimiento":{
+            "type":"Date",
+            "required":false
+        },
+        "direccion":{
+            "type":"String",
+            "required":false
+        },
+        "telefono":{
+            "type":"Number",
+            "required":false
+        },
+        "correo":{
+            "type":"String",
+            "required":false
+        }
+    },
+
+"acta":{
+    "tema":{
+        "type":"String",
+        "required":true
+
+    },
+    "descripcion":{
+        "type":"String",
+        "required":true
+    },
+    "fecha":{
+        "type":"Date",
+        "required":true
+    },
+    "fecha_termino":{
+        "type":"Date",
+        "required": true
+    }
+},
+
+"comentario":{
+    "autor":{
+        "type":"String",
+        "require":true
+    },
+    "fecha":{
+        "type":"Date",
+        "require":true
+    },
+    "descripcion":{
+        "type":"String",
+        "require":true
+    }
+   
+},
+
+  "Asamblea":{
+        "sede":{
+            "type":"String",
+            "required":true
+        },
+        "direccion":{
+            "type":"String",
+            "required":true
+        },
+        "tema":{
+            "type":"String",
+            "required":true
+        },
+        "descripcion":{
+            "type":"String",
+            "required":true
+        },
+        "fecha":{
+            "type":"String",
+            "required":true
+        },
+        "hora_inicio":{
+            "type": "String",
+            "required":true
+        }
+    }
+}
